@@ -16,21 +16,21 @@
   ],
   "website": "https://github.com/HunterNick2/RAVEN-BOT#readme",
   "repository": "https://github.com/HunterNick2/RAVEN-BOT.git",
-  "logo": "https://telegra.ph/file/eebe191a0520a79979b34.jpg",
+  "logo": "https://i.postimg.cc/nrBmSprW/Thu-13-03-2025-21-53-54.png",
   "success_url": "/",
   "env": {
     "PREFIX": {
-      "description": "Prefix of RAVEN-BOT Ex: . , / , # , & etc. Put any symbol or leave it blank",
-      "required": false
+      "description": "+",
+      "required": true
 
     },
     "DEV": {
-      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254114660061,27849061633  ",
+      "description": "263716729222 ",
       "required": true
     },
     "ANTIDELETE": {
       "description": "Input TRUE if you want bot to foward back deleted messages. The messages will be fowarded to your Pm, Message yourself.",
-      "required": false
+      "required": true
     },
     
     
@@ -48,11 +48,11 @@
     },
     "BAD_WORD": {
       "description": "List words separated witj commas that will be considered as bad and will trigger bot to kick. Example: fuck, pussy, hoe",
-      "required": false
+      "required": true
     },
     "BAD_WORD_KICK": {
       "description": "Put here TRUE if you want the bot to automatically kick group members using words that you have listed as bad",
-      "required": false
+      "required": kick
     },
     "ANTITAG": {
       "description": "Put TRUE if you want bot kick out unnecessary tags from a group, Not sure if its working eh!",
@@ -60,11 +60,11 @@
     },
       "AUTOREAD": {
       "description": "Put here TRUE if you want bot to automatically bluetick messages in private chats",
-      "required": true
+      "required": false
 },
  "AUTOVIEW": {
       "description": "Input TRUE if you want bot to automatically read status update",
-      "required": true
+      "required": false
 },
  "WA_PRESENCE": {
       "description": "Input either recording, typing, online, or leave it blank. This enables bot to simulate typing or recording or online status even if you're not online.",
@@ -90,7 +90,7 @@
 },
  "CODE": {
       "description": "Input you country code here without + eg 254, it Will be used to Eliminate foreigners from the group once prompted.",
-      "value": "254",
+      "value": "263",
       "required": true
 },
  "SESSION": {
@@ -98,7 +98,7 @@
       "required": true
 },
  "MODE": {
-      "description": "Input PRIVATE if you don't want other people to use your bot",
+      "description": "public",
       "required": true
     },
     
@@ -123,7 +123,7 @@
       "required": false
 },
  "MENU_TYPE": {
-      "description": "Input either VIDEO, LINK or IMAGE. This will allow bot to display different dynamic menu types",
+      "description": "https://files.catbox.moe/vpnqp7.mp3",
       "required": false
 
     
@@ -131,7 +131,7 @@
     },
     "AUTOLIKE_STATUS": {
       "description": "input TRUE if you want bot to autolike status updates. This will only work if autostatus view is TRUE",
-      "required": false
+      "required": true
     }
   },
   "buildpacks": [
